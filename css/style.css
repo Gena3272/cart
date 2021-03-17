@@ -1,0 +1,96 @@
+*:active, :hover, :focus{
+   outline: 0;
+   outline-offset: 0;
+}
+p{
+   font-size: 14px;
+}
+body{
+   margin: 0;
+   padding: 0;
+}
+.container{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.card{
+   position: relative;
+   background-color: rgb(196, 250, 196);
+   margin-top: 50px;
+   width: 700px;
+   height: 450px;
+   border-radius: 20px;
+   
+}
+.card__title{
+   position: absolute;
+   width: 450px;
+   height: 50px;
+   background-color: rgb(170, 112, 3);
+   left: -20px;
+   top: 30px;
+   border-radius: 2px;
+   
+}
+.card__title_text{
+   color: white;
+   margin-top: 13px;
+   margin-left: 40px;
+   font-size: 1.3rem;
+   text-transform: uppercase;
+}
+.card__item{
+   position: absolute;
+   margin-top: 100px;
+   margin-left: 20px;
+   
+}
+.card__item p{
+   margin-bottom: 5px;
+}
+.card__img{
+   
+   position: absolute;
+   width: 350px;
+   height: 350px;
+   right: 10px;
+   bottom: -13px;
+}
+.text-info__littel{
+   display: flex;
+   justify-content: space-between;
+   width: 56%;
+   
+}
+.text-info__littel p{
+   margin-bottom: 5px;
+}
+.input-big{
+   width: 60%;
+   height: 33px;
+   border: none;
+   padding-left: 10px;
+   border-bottom: 1px solid black;
+   background-color: rgb(158, 247, 158);
+   box-shadow: 5px black;
+   margin-bottom: 10px;
+}
+
+.car__item_littel{
+   width: 62%;
+   display: flex;
+   justify-content: space-between;
+   
+}
+.text-info__littel{
+   padding: 0;
+}
+.input-littel{
+   width: 27%;
+   height: 33px;
+   border: none;
+   border-bottom: 1px solid black;
+   background-color: rgb(158, 247, 158);
+   padding-left: 10px;
+}
+
